@@ -13,7 +13,7 @@ export class HomePage {
         this.playwrightTestAgentsLink = page.getByRole("link", { name: "Playwright Test Agents", exact: true })
     }
 
-    async goto() {
+    async navigate() {
         await this.page.goto('/')
     }
 
